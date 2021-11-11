@@ -1,0 +1,59 @@
+<!DOCTYPE html>		
+
+<html>				
+
+	<head>	
+		<title>HTML Events</title>		
+		<link rel="stylesheet" href="css/style.css"/>
+	</head>																						
+	
+	<body onload = "alert('Loading complete!')"
+	onresize = "alert('Sometimes, size is too big, sometimes, it is too small.')"
+	ononline = window.location.href="https://www.youtube.com/watch?v=7nQ2oiVqKHw">	
+
+<h1>HTML Events</h1>
+
+<h2>Window Events</h2>
+			
+<p id= "window">
+	Try resizing the window.
+	Try getting the browser to work online.
+</p>
+
+<h2>Form Events</h2>
+
+<p id= "form">
+	Input something, submit it and do NOT click on Softlock.
+	See what happens when you select text from First name and when Last name loses focus.
+</p>
+
+<form oninput = "alert('Keep typing...')"
+onsubmit = "alert('This info will now be discarded.')">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"
+  onselect = window.location.href="https://music.youtube.com/watch?v=DZKnVQL3r2I&feature=share"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname"
+  onblur = "alert('Last name never gets attention...')"><br><br>
+  <input type="submit" value="Submit">
+  <input type="softlock" value="Softlock"
+  onfocus = "alert('Well played. You just softlocked yourself.')">
+</form> 
+
+<h2>Keyboard Events</h2>
+
+<button onclick=window.location.href="keyboard.html">Click here</button>
+
+<h2>Mouse Events</h2>
+
+<button onclick=window.location.href="https://music.youtube.com/watch?v=uivFFnCI8tM&feature=share">Click this one</button>
+<br>
+<button onmousemove=window.location.href="https://www.youtube.com/watch?v=ZVMXBe8mpQ4">Move your mouse over this one</button>
+<br>
+<button onmousemove=window.location.href="https://www.youtube.com/watch?v=Jb5PORvWb2k">Press the mouse down on this one</button>
+<br>
+<button onmouseout=window.location.href="https://music.youtube.com/watch?v=SCa5hmp-UmQ&feature=share">Move your mouse out of this one</button>
+
+	</body>						
+
+</html>
